@@ -1,2 +1,2 @@
-def fun(x)
-  print(x)
+def fun(y)
+  print(y)
