@@ -1,2 +1,2 @@
 def fun()
-  print("hello world")
+  print("hello worlds")
