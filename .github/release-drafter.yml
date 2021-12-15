@@ -30,7 +30,7 @@ template: |
 
   $CHANGES
 autolabeler:
-  - label: 'documentation'
+  - label: 'chore'
     files:
       - '*.md'
     branch:
@@ -38,6 +38,10 @@ autolabeler:
   - label: 'bug'
     branch:
       - '/fix\/.+/'
+    title:
+      - '/fix/i'
   - label: 'enhancement'
     branch:
       - '/feature\/.+/'
+    body:
+      - '/JIRA-[0-9]{1,4}/'
