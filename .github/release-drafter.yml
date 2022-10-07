@@ -27,7 +27,7 @@ template: |
 
   $CHANGES
 autolabeler:
-  - lable: 'documentation'
+  - lables: 'documentation'
     title:
       - '/^(?:doc:|docs:).+$/i'
     files:
