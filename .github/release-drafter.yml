@@ -29,6 +29,10 @@ template: |
   ## Changes
 
   $CHANGES
+  
+  ## Contributers
+  
+  $CONTRIBUTORS
 autolabeler:
   - label: 'documentation'
     title:
